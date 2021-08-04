@@ -1,7 +1,9 @@
 # LGMVIP-DataScience internship
 # Task 4- Image to Pencil Sketch with Python
 
-cv2 library: OpenCV is a cross-platform library using which we can develop real-time computer vision applications. It mainly focuses on image processing, video capture and analysis including features like face detection and object detection
+cv2 library: OpenCV is a cross-platform library using which we can develop real-time computer vision applications. It mainly focuses on image processing, video capture and analysis including features like face detection and object detection.
+
+RGB means Red Green Blue, ie the primary colors in additive color synthesis. A RGB file consists in composite layers of Red, Gree and Blue, each being coded on 256 levels from 0 to 255.
 
 In this task, 
 
