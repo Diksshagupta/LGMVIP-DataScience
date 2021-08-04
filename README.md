@@ -8,7 +8,7 @@ In this task,
 first we need to import the cv2 library then find an image that you want to convert to a pencil sketch with Python, read that image by 
 image= cv2.imread, 
 
-then we need to read the image in RBG format by 
+then we need to read the image in RGB format by 
 img_rgb= cv2.cvtColor(image, cv2.COLOR_BGR2RGB) 
 
 and then convert it to a grayscale image 
@@ -29,3 +29,5 @@ pencil_sketch = cv2.divide(gray_image, inverted_blurred, scale=256.0)
 And to Display image at anytime
 cv2.imshow("Diksha Sketch", pencil_sketch)
 cv2.waitKey(0)
+
+Steps: read image--> RGB Format--> grayscale image-->inverted grayscale(negative image)-->blurry image(gaussian function)-->inverted blurr-->gray image+inverted blurr
