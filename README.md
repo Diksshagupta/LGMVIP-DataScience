@@ -33,3 +33,11 @@ cv2.imshow("Diksha Sketch", pencil_sketch)
 cv2.waitKey(0)
 
 Steps: read image--> RGB Format--> grayscale image-->inverted grayscale(negative image)-->blurry image(gaussian function)-->inverted blurr-->gray image+inverted blurr
+
+# Task 1- Iris Flowers Classification ML Project
+
+This particular ML project is usually referred to as the “Hello World” of Machine Learning. The iris flowers dataset contains numeric attributes, and it is perfect for beginners to learn about supervised ML algorithms, mainly how to load and handle data. Also, since this is a small dataset, it can easily fit in memory without requiring special transformations or scaling capabilities.
+
+Reference link for algorithm: https://towardsdatascience.com/comparative-study-on-classic-machine-learning-algorithms-24f9ff6ab222
+https://medium.com/@dannymvarghese/comparative-study-on-classic-machine-learning-algorithms-part-2-5ab58b683ec0
+https://www.interviewqs.com/blog/intro-to-scikit-learn
